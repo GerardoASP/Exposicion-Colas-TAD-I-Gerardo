@@ -38,7 +38,7 @@ class Cola:
   
   #Metodo #8: Obtener posición de un elemento en la cola
   def obtener_posicion_elemento(self,valor):
-    pos_elemento = -1
+    pos_elemento = None
     contador = 0
     while contador < len(self.items):
       if self.items[contador] == valor:
