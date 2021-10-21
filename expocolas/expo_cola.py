@@ -52,7 +52,7 @@ class Cola:
     ind = int(input('Digite el indice del elemento: '))
     while True:
       try:
-        if ind < 0 and ind > len(self.items):
+        if ind < 0 or ind > len(self.items):
           ind = int(input('Indice por fuera de los rangos\n Digita nuevamente el indice: '))
         else:
           break
